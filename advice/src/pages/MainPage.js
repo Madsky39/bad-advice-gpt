@@ -1,5 +1,9 @@
+import SubmitButton from "../components/SubmitButton";
+
 function MainPage() {
-    return "This app is working";
+    return <div>
+        <SubmitButton/>
+    </div>;
 }
 
 export default MainPage;
